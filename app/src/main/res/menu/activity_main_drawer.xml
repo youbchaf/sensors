@@ -37,22 +37,19 @@
 
         <item
             android:id="@+id/nav_accelerometre"
-            android:icon="@mipmap/compass"
+            android:icon="@mipmap/mainboard"
             android:title="Accelerométre" />
         <item
             android:id="@+id/nav_accelerometrel"
-            android:icon="@mipmap/compass"
+            android:icon="@mipmap/gravity"
             android:title="Gravity rotation" />
 
         <item
             android:id="@+id/nav_steps"
-            android:icon="@mipmap/compass"
-            android:title="Steeps" />
+            android:icon="@mipmap/footprint"
+            android:title="Steps" />
 
-        <item
-            android:id="@+id/nav_humain"
-            android:icon="@mipmap/compass"
-            android:title="Human activity" />
+
     </group>
 
     <item android:title="Communicate">

@@ -12,14 +12,44 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/group"
+            android:layout_width="264dp"
+            android:layout_height="52dp"
+            android:orientation="horizontal">
+
+
+            <RadioButton
+                android:id="@+id/x"
+                android:layout_width="59dp"
+                android:layout_height="53dp"
+                android:layout_gravity="top"
+                android:text="X" />
+
+            <RadioButton
+                android:id="@+id/y"
+                android:layout_width="69dp"
+                android:layout_height="48dp"
+                android:text="Y" />
+
+            <RadioButton
+                android:id="@+id/z"
+                android:layout_width="115dp"
+                android:layout_height="53dp"
+                android:text="Z" />
+
+
+        </RadioGroup>
+
         <TextView
             android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#FFFFFF"
             android:gravity="center"
             android:text="Gravity"
-            android:textColor="#000000"
-            android:background="#A6A4E4"/>
+            android:textColor="#000000" />
 
         <TextView
             android:id="@+id/Gx"
@@ -50,10 +80,10 @@
             android:id="@+id/textView9"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#FFFFFF"
             android:gravity="center"
             android:text="Rotation"
-            android:textColor="#000000"
-            android:background="#56C1B2"/>
+            android:textColor="#000000" />
         <TextView
             android:id="@+id/Ax"
             android:layout_width="wrap_content"
@@ -76,37 +106,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text=""
+            android:text="0"
             android:textColor="#000000" />
-        <RadioGroup
-            android:id="@+id/group"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            >
 
-
-            <RadioButton
-                android:id="@+id/x"
-                android:layout_width="170dp"
-                android:layout_height="53dp"
-                android:layout_gravity="top"
-                android:text="X" />
-
-            <RadioButton
-                android:id="@+id/y"
-                android:layout_width="107dp"
-                android:layout_height="48dp"
-                android:text="Y" />
-
-            <RadioButton
-                android:id="@+id/z"
-                android:layout_width="115dp"
-                android:layout_height="53dp"
-                android:text="Z" />
-
-
-        </RadioGroup>
         <com.github.mikephil.charting.charts.LineChart
             android:id="@+id/chart"
             android:layout_width="match_parent"
